@@ -1,0 +1,15 @@
+Project Proposal A
+
+For my first project proposal, I will be creating a working website for my father that will include an info submission form with a short description of their issue.
+
+This project will help solve the problem that my father has of obtaining new clients and being able to sort through them quickly. Right now his business is all word of mouth, but it involves an introductory phone call of 30 minutes. Hopefully this cuts those down.
+The user of the website would be anyone interested in therapy. He is a rolfer and clinical psychologist, so anybody looking to improve their mental well-being or find perspective.
+
+I will be using HTML, CSS, Javascript, materialize, dom manipulation, local storage of data.
+I would like for it to be accessible on phones and desktops.
+Project Proposal B
+My second project idea would be a simple locally run alarm clock on my phone, that would connect with the Spotify api in order to play Spotify music to wake up too.
+
+This would solve my problem of my super annoying alarm sound that I have grown to hate, and instead will allow me to wear through a bunch of music that I love.
+
+I would be using HTML, CSS, Javascript, Materialize, DOM manipulation, local storage of data, and focusing on mobile optimization. 
