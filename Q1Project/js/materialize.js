@@ -2989,7 +2989,8 @@ $jscomp.polyfill = function (e, r, p, m) {
        * Handle Overlay Click
        */
 
-    }, {
+    },
+     {
       key: "_handleOverlayClick",
       value: function _handleOverlayClick() {
         if (this.options.dismissible) {
