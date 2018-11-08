@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Alarm Clock</title>
+  </head>
+  <body>
+    <div id="Container">
+  <div id="clock">
+    <span id="hour"> </span> :
+    <span id="minute"> </span> :
+    <span id="second"> </span>
+  </div>
+
+  <div id="Alarm">
+    Hour: <input id="aHour" type="number" min="0" max="23" onChange="numCap(this);"/>
+    &nbsp;&nbsp;
+    Minute: <input id="aMinute" type="number" min="00" max="59" onChange="numCap(this)" />
+    &nbsp;&nbsp;
+    Second: <input id="aSecond" type="number" min="00" max="59" onChange="numCap(this)" />
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    <input id="aSwitch" type="button" value="OFF" onclick="alarmSwitch()"/>
+  </div>
+
+  <br>
+    <input id="turnOff" type="button" value="SHUT OFF" onclick="disableAlarm();"/>
+</div>
+
+  <!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/alarm.js"></script>
+  </body>
+</html>

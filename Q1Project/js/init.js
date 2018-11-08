@@ -7,7 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
   // console.log(form)
   form.addEventListener("submit", function(){
     event.preventDefault();
-
+    document.getElementById("email-input").style.color = "white";
+    document.getElementById("password-input").style.color = "white";
+    document.getElementById("tel-input").style.color = "white";
     let email = document.getElementById("email-input").value
     let name = document.getElementById("password-input").value
     let tel = document.getElementById("tel-input").value
@@ -15,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
     let nameStorage=localStorage.setItem('name', name)
     let telStorage=localStorage.setItem('tel', tel)
     if (name.value != "" && email.value != ""){
-      alert('Thank you for your information! We will contact you as soon as possible.')
+      M.toast({html: 'Thank you for submitting your information!'})
     } else {
-      return alert('Please enter valid name and e-mail')
+      return M.toast({html: 'Please enter in valid Information'})
     }
 
   })

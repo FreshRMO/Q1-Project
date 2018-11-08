@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: white;
 }
 
 p {
@@ -16,14 +16,16 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: black;
 }
 
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: black;
+
+
 }
   .parallax-container .section {
     width: 100%;
@@ -62,4 +64,30 @@ footer.page-footer {
 }
 #modal2{
   background-color: black;
+}
+
+#icon-block0{
+  background-color: black;
+  color: white;
+}
+#icon-block1{
+  background-color: black;
+  color: white;
+}
+#icon-block2{
+  background-color: black;
+  color: white;
+}
+
+#initialSection{
+  background-color: black;
+}
+#container0{
+  background-color: black;
+}
+body{
+  background-color: black;
+}
+#container1{
+  color: white;
 }
