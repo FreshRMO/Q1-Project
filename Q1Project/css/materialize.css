@@ -2660,8 +2660,8 @@ a {
 
 /* 24dp elevation */
 .z-depth-5, .modal {
-  -webkit-box-shadow: 0 24px 38px 3px black, 0 9px 46px 8px black, 0 11px 15px -7px black;
-          box-shadow: 0 24px 38px 3px black, 0 9px 46px 8px black, 0 11px 15px -7px black;
+  -webkit-box-shadow: 0 24px 38px 3px white, 0 9px 46px 8px white, 0 11px 15px -7px white;
+          box-shadow: 0 24px 38px 3px white, 0 9px 46px 8px white, 0 11px 15px -7px white;
 }
 
 .hoverable {
@@ -5286,7 +5286,7 @@ small {
 }
 
 .btn-floating:hover {
-  background-color: grey;
+  background-color: white;
 }
 
 .btn-floating:before {
@@ -5791,10 +5791,12 @@ body.keyboard-focused .dropdown-content li:focus {
   height: 56px;
   width: 100%;
   text-align: right;
+  color: white;
 }
 
 .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-small, .modal .modal-footer .btn-flat {
   margin: 6px 0;
+  color:white;
 }
 
 .modal-overlay {
@@ -5825,7 +5827,7 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .modal.modal-fixed-footer .modal-footer {
-  border-top: 1px solid black;
+  border-top: 1px solid #a9a9a9;
   position: absolute;
   bottom: 0;
 }

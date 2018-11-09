@@ -1,17 +1,17 @@
 html, body{
   padding:0;
   margin:0;
-
+  zoom: 150%;
   background-color: black;
 }
 #Container{
   width: 100%;
   max-width: 90%;
   min-width: 300px;
-
+  color: white;
   margin: auto;
 
-  background-color: gray;
+  background-color: black;
 
   text-align:center;
 }
@@ -19,17 +19,18 @@ html, body{
   width: 100%;
 
   text-align:center;
-
+  color: white;
   font-size: 45px;
-  font-family:Futura, "Eras Bold ITC";
+  font-family:'Srisakdi', cursive;
 }
 #Alarm{
   margin-top: 50px;
   text-align: center;
+  color: white;
 }
 
 #turnOff{
-  background-color: rgba( 250, 10, 10, .6);
+  background-color: white;
   padding: 50px;
   border:none; outline:none;
   border-radius: 25%;
@@ -42,9 +43,19 @@ html, body{
   display: none;
 }
   #turnOff:active{
-    background-color: rgba( 250, 10, 10, .9);
+    background-color: white;
     cursor: pointer;
-  }
+}
   #turnOff:hover{
     cursor: pointer;
-  }
+}
+#modal1{
+  color: white;
+}
+#sleep-icon{
+  text-align: center;
+}
+
+body{
+  font-family: 'Srisakdi', cursive;
+}

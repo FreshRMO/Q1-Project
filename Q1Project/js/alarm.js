@@ -53,9 +53,10 @@ var sound = new Audio("http://www.freespecialeffects.co.uk/soundfx/sirens/alarm_
 				aOff.style.display = "block";
 				sound.play();
 			}
-			else
-				alert("error..");
-		}
+			else{
+				M.toast({html: 'error...'})
+      }
+    }
 
 		/*This is how the beeper goes off:
 		 * It first checks the set time so the alarm can go to the
